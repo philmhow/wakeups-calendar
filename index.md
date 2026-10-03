@@ -1,6 +1,6 @@
 # Privacy Policy — WakeUps: Oilfield Calendar
 
-**Last updated: 21 September 2026**
+**Last updated: 26 September 2026**
 
 WakeUps: Oilfield Calendar keeps your rotation schedule, calendar events and
 reminders on your own phone.
@@ -9,10 +9,14 @@ reminders on your own phone.
 
 **This app has no account, no server, no analytics, and no internet
 permission at all. The app never sends anything you enter off your phone,
-because there is no network connection it is even able to make.** The one way
-a copy can end up anywhere else is Android's own automatic backup to your
-Google account, which is a feature of your phone, not of this app, and which
-you can turn off. It is explained below.
+because it has no way to make a network connection of its own.** The one way a copy of your data can end up
+anywhere else is Android's own automatic backup to your Google account, which
+is a feature of your phone, not of this app, and which you can turn off. It is
+explained below.
+
+If you buy WakeUps Pro, the purchase goes through the Google Play Store app on
+your phone and is handled by Google Play, not by this app. That is explained
+under "Purchases".
 
 ## What the app stores, and where
 
@@ -22,6 +26,9 @@ stored in a database file inside the app's own private storage on your
 device. We cannot see any of it, and the app does not transmit any of it
 anywhere.
 
+If you buy WakeUps Pro, the app also keeps a note on your phone that Pro is
+unlocked, in the same private storage, so Pro keeps working with no signal.
+
 ## Permissions, and why each is asked for
 
 **Notifications** (`POST_NOTIFICATIONS`) — to show the reminders you set.
@@ -30,8 +37,37 @@ anywhere.
 `VIBRATE`) — so a reminder set for a specific time arrives at that time, and
 so reminders survive a phone restart.
 
+**Google Play billing** (`com.android.vending.BILLING`) — so the app can ask
+the Google Play Store app on your phone to show the WakeUps Pro purchase
+screen, and ask it whether you have already bought Pro. This does not give the
+app internet access. The app only talks to the Play Store app on the same
+phone.
+
 That is the complete list. The app does not request location, camera,
 contacts, storage, or internet access, and has no use for any of them.
+
+## Purchases
+
+The app is free. WakeUps Pro is an optional one-time purchase that unlocks the
+home screen widget, reminders and extra accent colours.
+
+When you buy Pro, you pay through Google Play. Google processes the payment
+under its own terms and privacy policy. We never see your card or other
+payment details.
+
+Like every developer who sells through Google Play, we receive Google's
+standard order record for the sale in our Play Console: things like the order
+number, the date, the country and the price paid. We use it only to handle
+refunds and questions about a purchase. We do not receive your name or
+payment details from the app, and the app itself sends us nothing.
+
+To know whether you own Pro, the app asks the Play Store app on your phone.
+The answer is saved in the app's private storage so Pro works offline. If you
+reinstall the app or move to a new phone, **Restore purchase** on the Pro
+screen asks Google Play again. No account with us is needed.
+
+Refunds are handled through Google Play. If a purchase is refunded, Pro
+features lock again.
 
 ## Android's automatic backup
 
@@ -49,7 +85,7 @@ phone, and you can delete existing backups from the same place.
 
 ## The home screen widget
 
-The optional home screen widget shows the same rotation status the app
+The optional home screen widget (part of WakeUps Pro) shows the same rotation status the app
 itself does. It is drawn on your device from the same local data — nothing
 about placing or viewing it sends anything anywhere.
 
@@ -58,7 +94,9 @@ about placing or viewing it sends anything anywhere.
 - No account, no sign-in, no profile.
 - No analytics, no telemetry, no crash reporting service.
 - No advertising, and no advertising identifiers.
-- No third-party trackers or SDKs of any kind.
+- No third-party trackers or analytics SDKs. The only library that deals
+  with anything outside the app is Google's own Play Billing library, and it
+  only talks to the Play Store app on your phone, and only for purchases.
 - The app itself sells, shares, or transfers no data to anyone, for any
   purpose. There is no mechanism in the app that could do so.
 
@@ -74,6 +112,11 @@ rotation history, events and reminders. If Android backup was on, a copy may
 remain in your Google account until you delete it there (see above). Since we
 hold no copy of your data ourselves, there is nothing to request from us and
 nothing for us to delete on your behalf.
+
+If you bought WakeUps Pro, Google Play keeps the purchase with your Google
+account so it can be restored, and the order record described under
+"Purchases" stays in Google's records and our Play Console as Google requires.
+Uninstalling the app does not cancel or refund the purchase.
 
 ## Changes
 
